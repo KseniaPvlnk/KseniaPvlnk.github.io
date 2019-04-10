@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*We Are Avesome Creative Agency*/
+.header {
+    text-align: center;
+    background-image: url(img2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.header__logo {
+    top: 20px;
+    float: left;
+    margin: 10px 0px 7px 40px;
+    color: #00afd4;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+h2 {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.header__menu {
+    color: #8c968a;
+    font-size: 30px;
+    margin-right: 20px;
+    text-align: right;
+    width: 100%;
+    height: 60px;
+}
+
+a {
+    /*margin-top: 100px;*/
+    color: white;
+    margin-right: 25px;
+    text-align: right;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: rgba(0, 175, 212, 0.42);
+}
+
+.header__excerpt {
+    font-size: 25px;
+    color: white;
+    margin: 100px;
+}
+
+p span {
+    /*display: flex;*/
+    text-align: center;
+    border: 5px solid #00caf4;
+    padding: 10px;
+    color: #00caf4;
+}
+
+.line {
+    width: 50px;
+    margin: 30px auto;
+    border: 1px solid #00caf4;
+}
+
+.header__button {
+    margin: 50px;
+}
+
+p span:hover {
+    color: rgba(0, 175, 212, 0.74);
+    border: 5px solid rgba(0, 175, 212, 0.42);
+}
+
+/*OUR STORY*/
+.preview__page {
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 250px;
+    display: flex;
+    text-align: left;
+}
+
+.preview__logo {
+    /*top: 100px;*/
+    /*left: 100px;*/
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+p {
+    margin-left: 35px;
+}
+
+.preview__button {
+    margin-top: 50px;
+    margin-left: 540px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+/*WATCH OUR STORY*/
+.media {
+    text-align: center;
+    background-image: url(watchOurStory.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.playIcon {
+    margin-top: 200px;
+    /*margin-bottom: 250px;*/
+    left: 100px;
+    top: 50px;
+}
+
+h3 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 200px;
+    /*margin: 25px;*/
+}
+
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+    .page {
+        width: 75%;
+        min-width: 950px;
+        max-width: 720px;
+
+    }
+    /*.header__logo {*/
+        /**/
+        /*text-align: center;*/
+        /**/
+    /*}*/
+
+    .header__menu {
+        flex-direction: column;
+        font-size: 15px;
+        margin-right: 5px;
+        text-align: right;
+        /*width: 100%;*/
+        height: 100px;
+    }
+
+    .header__button {
+        margin-bottom: 100px;
+    }
+
+    .preview__page {
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        text-align: left;
+    }
+
+    .preview__button {
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-bottom: 100px;
+        /*display: flex;*/
+        text-align: left;
+    }
+
+    .previewImage {
+        margin-top: 80px;
+
+    }
+}
