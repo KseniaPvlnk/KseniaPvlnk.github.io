@@ -412,10 +412,18 @@ padding: 10px;
 
 
 /*GIVE US A GOOD NEWS*/
+.news{
+    margin-bottom: 30px;
+}
+.news__titleMain{
+    font-weight: bold;
+    font-size: 25px;
+}
+
 label {
 margin-top: 20px;
     display: block;
-    margin-left: -150px;
+    margin-left: 10px;
     padding: 10px;
     justify-content: center;
 height: 20px;
@@ -429,8 +437,9 @@ input{
     padding: 15px;
 }
 
-.news {
-    margin: 30px auto;
+.new__button{
+    margin-top: 100px;
+
 }
 
 .new {
@@ -442,57 +451,31 @@ input{
 }
 
 .news__new {
-    width: 75%;
-    height: 450px;
-    margin: 0 auto;
+    float: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*border: 1px solid gray;*/
+    height: 0px;
+    margin-top: 0px ;
+    margin-right: 500px;
 }
 
 .ourClients {
-    width: 450px;
-    /*margin: 0 auto;*/
+    float: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*height: 450px;*/
+    height: 450px;
     margin-top: 0px ;
     margin-left: 500px;
 }
-
-
-.block {
-    width: 60vw;
-    border: 1px solid #8a8a8a;
-    padding: 12px 0 7px 7px;
-    /*opacity: .6;*/
-    margin: 10px;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    color: #8a8a8a;
+.ourClients__titleMain{
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
 
-/*.content__yourMessage {*/
-    /*padding-bottom: 120px;*/
-/*}*/
-
-/*.content__button {*/
-    /*margin: 20px 0 0 10px;*/
-    /*max-width: 130px;*/
-    /*height: 40px;*/
-    /*border: 2px solid #00e0d0;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*color: #00e0d0;*/
-    /*transition: .7s;*/
-    /*font-size: 13px;*/
-    /*font-weight: bold;*/
-    /*font-family: HammersmithOne, sans-serif;*/
 .client__blocks {
     display: flex;
     /*flex-direction: column;*/
@@ -508,6 +491,156 @@ input{
     justify-content: center;
     margin: 0 auto 10px;
 }
+
+
+
+/*Footer*/
+
+.footer {
+    background-image: url(footerBg.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    color: white;
+}
+
+.footer__footer {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+}
+
+.footerMain__block {
+    max-width: 310px;
+    /*padding: 10px;*/
+    /*margin: 0 auto;*/
+}
+
+.blockTitle {
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footerMain__location {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.locationImg {
+    margin-right: 9px;
+}
+
+.footerMain__image {
+
+}
+
+.phoneNumberImg {
+    margin-right: 5px;
+    /*margin-bottom: 10px;*/
+}
+
+.footerMain__phoneNumber {
+    display: flex;
+}
+
+.footerMain__blockTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footerMain__subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__input {
+    /*border: 1px solid grey;*/
+    /*padding: 4px 19px 4px 8px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    opacity: .7;
+    /*font-size: 14px;*/
+    margin-left: -30px;
+    margin-top: -40px;
+
+}
+
+.subscribe__img {
+margin-left: 170px;
+    height: 45px;
+    width: 70px;
+}
+
+.subscribeIconsSocialNetworks {
+    margin-top: 20px;
+}
+
+.socialNetworksIcon {
+    margin: 0 3px;
+}
+
+.footer__navBar {
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+}
+
+.footer__copyrights {
+
+}
+
+.ourStudio {
+    margin-bottom: 50px;
+}
+
+/*!*RESPONSIVE MENU*!*/
+
+/*.show-menu-btn,.hide-menu-btn{*/
+    /*display: block;*/
+/*}*/
+/*.header__button{*/
+
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    /*background: #333;*/
+    /*right: -100%;*/
+    /*top: 0;*/
+    /*text-align: center;*/
+    /*padding: 80px 0;*/
+    /*line-height: normal;*/
+    /*transition: 0.7s;*/
+/*}*/
+/*.header__button a{*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*padding: 10px;*/
+/*}*/
+/*.hide-menu-btn{*/
+    /*position: absolute;*/
+    /*top: 40px;*/
+    /*right: 40px;*/
+/*}*/
+/*#chk:checked ~ .header__button{*/
+    /*right: 0;*/
+/*}*/
+
 
 
 @media screen and (max-width: 1000px) and (min-width: 320px) {
