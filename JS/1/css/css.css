@@ -1,0 +1,64 @@
+td{
+    margin-right: 20px;
+}
+.header{
+    text-align: center;
+}
+.add{
+    margin: 0 auto;
+    margin-bottom: 30px;
+/*text-align: left;*/
+}
+.add input{
+padding: 10px;
+    align-items: center;
+    margin-left: 350px;
+
+}
+.filter{
+    margin-left: 10px;
+}
+.filter input{
+    padding: 10px;
+}
+.filter img{
+    height: 25px;
+    width: 25px;
+    /*margin-left: 35px;*/
+    /*margin-right: 40px;*/
+}
+.filter button{
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.table1 img{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    margin-right: 25px;
+}
+.table1 button{
+    margin: 0 auto;
+}
+table {
+    padding: 20px;
+    width: 1300px; /* Ширина таблицы */
+    /*border: 1px solid green; !* Рамка вокруг таблицы *!*/
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+/*td {*/
+    /*text-align: center; !* Выравниваем текст по центру ячейки *!*/
+ /*}*/
+
+.table p{
+    background: rgba(0, 128, 0, 0.51);
+    padding: 15px;
+}
+.table p span{
+    background: rgba(128, 128, 128, 0.51);
+    padding: 15px;
+}
+td{
+    margin-right: 15px;
+}

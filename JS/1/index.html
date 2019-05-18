@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="/JS/script.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="page">
+<div class="header">
+        <h3>TODO LIST</h3>
+</div>
+    <div class="add">
+    <form>
+
+        <p><input  class="add" type="text" placeholder="Task" size="100" > <button type="button" onclick="add();">ADD</button></p>
+    </form>
+    </div>
+    <div class="filter">
+        <p><button type="button"> <img src="css/data.png" alt="data"></button>
+            <button type="button"> <img src="css/priority.jpg" alt="priority"></button>
+            <img src="css/search.png" alt="search">
+        <input  class="form-control" type="text" placeholder="Search" id="search-text" onkeyup="tableSearch()" size="100">
+            <button type="button"><img src="css/filter.png" alt="search"></button> </p>
+
+    <table class="table table-striped" id="info-table">
+
+            <!--<thead>-->
+                <!--<tr>-->
+                    <!--<p><th>12.11.2018-->
+                    <!--12:30</th>-->
+                    <!--<th>1</th>-->
+                    <!--<th>Task for create user page</th>-->
+                    <!--<img src="css/redact.png" alt="redact">-->
+                    <!--<img src="css/done.png" alt="done">-->
+                    <!--<img src="css/basket.png" alt="basket"></p>-->
+                <!--</tr>-->
+            <!--</thead>-->
+        <div class="table" id="table">
+            <!--<div class="table1">-->
+                <!--&lt;!&ndash;<tbody>&ndash;&gt;-->
+                <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<th>12.11.2018&ndash;&gt;-->
+                    <!--&lt;!&ndash;12:30</th>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<th>1</th>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<th>Task for create user page</th>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img src="css/redact.png" alt="redact">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img src="css/done.png" alt="done">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img src="css/basket.png" alt="basket">&ndash;&gt;-->
+                <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                <!--&lt;!&ndash;</tbody>&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="table2">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<th>12.11.2018-->
+                    <!--12:30</th>-->
+                    <!--<th>1</th>-->
+                    <!--<th>Task for create user page</th>-->
+                    <!--<img src="css/redact.png" alt="redact">-->
+                    <!--<img src="css/done.png" alt="done">-->
+                    <!--<img src="css/basket.png" alt="basket">-->
+                <!--</tr>-->
+                <!--</tbody>-->
+            <!--</div>-->
+            <!--<div class="table3">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<th>12.11.2018-->
+                    <!--12:30</th>-->
+                    <!--<th>1</th>-->
+                    <!--<th>Task for create user page</th>-->
+                    <!--<img src="css/redact.png" alt="redact">-->
+                    <!--<img src="css/done.png" alt="done">-->
+                    <!--<img src="css/basket.png" alt="basket">-->
+                <!--</tr>-->
+                <!--</tbody>-->
+            <!--</div>-->
+            <!--<div class="table4">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<th>12.11.2018-->
+                    <!--12:30</th>-->
+                    <!--<th>1</th>-->
+                    <!--<th>Task for create user page</th>-->
+                    <!--<img src="css/redact.png" alt="redact">-->
+                    <!--<img src="css/done.png" alt="done">-->
+                    <!--<img src="css/basket.png" alt="basket">-->
+                <!--</tr>-->
+<div class="table1">
+    <tr><td>12.11.2018 12:30</td>
+                <td><p>1</p></td>
+                <td><img src="css/Screenshot_1.png" alt="redact"></td>
+                <td><p>Task for create user page</p></td>
+                <td><button type="button"><img src="css/redact.png" alt="redact"></button></td>
+                <td><button type="button"><img src="css/done.png" alt="done"></button></td>
+                <td><button type="button"><img src="css/basket.png" alt="basket"></button></td></tr>
+</div>
+<div class="table2">
+            <tr><td>12.11.2018 12:30</td>
+                <td><p>1</p></td>
+                <td><img src="css/Screenshot_1.png" alt="redact"></td>
+                <td><p>Task for create user page</p></td>
+                <td><button type="button"><img src="css/redact.png" alt="redact"></button></td>
+                <td><button type="button"><img src="css/done.png" alt="done"></button></td>
+                <td><button type="button"><img src="css/basket.png" alt="basket"></button></td></tr>
+
+</div>
+            <div class="table3">
+            <tr><td>12.11.2018 12:30</td>
+                <td><p>3</p></td>
+                <td><img src="css/Screenshot_1.png" alt="redact"></td>
+                <td><p>Task for create user page</p></td>
+                <td><button type="button"><img src="css/redact.png" alt="redact"></button></td>
+                <td><button type="button"><img src="css/done.png" alt="done"></button></td>
+                <td><button type="button"><img src="css/basket.png" alt="basket"></button></td></tr>
+            </div>
+            <div class="table4">
+            <tr><td>12.11.2018 12:30</td>
+                <td><p>4</p></td>
+                <td><img src="css/Screenshot_1.png" alt="redact"></td>
+                <td><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolore eaque, error eum magnam molestias soluta</p></td>
+                <td><button type="button"><img src="css/redact.png" alt="redact"></button></td>
+                <td><button type="button"><img src="css/done.png" alt="done"></button></td>
+                <td><button type="button"><img src="css/basket.png" alt="basket"></button></td></tr>
+            </div>
+            </tbody>
+            </div>
+    </table>
+        </div>
+    </table>
+
+    </div>
+</div>
+</div>
+</body>
+</html>
