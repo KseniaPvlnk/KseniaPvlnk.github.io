@@ -1,0 +1,62 @@
+/*body {background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png)}*/
+body{
+    background: url(1.jpg) repeat-y rgb(37, 255, 37) ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #060403;
+    transition: .15s ease-in-out;
+
+}
+a:hover {
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+    color: #ffffff;
+}
+
+
+h1{
+    color: white;
+    font-size: 100px;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+
+p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+.button{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    /*position: relative;*/
+    border: 1px solid white;
+    padding: 0 1rem;
+    text-align: center;
+    /*margin-top:200px;*/
+    /*margin-left: 600px;*/
+    margin: auto;
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
