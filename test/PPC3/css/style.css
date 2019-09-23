@@ -1,0 +1,9 @@
+body{
+    margin: 30px 100px;
+}
+img {
+    display: inline-block;
+    height: auto;
+    width: 25%;
+    max-width: 100%;
+  }

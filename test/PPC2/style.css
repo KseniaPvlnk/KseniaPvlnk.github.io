@@ -1,0 +1,23 @@
+body{
+    margin: 30px 200px;
+}
+caption{
+    font-size: 60px;
+    
+}
+th {
+    font-weight: normal;
+    border-bottom: 2px solid #173bb3;
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    color:#039;
+    padding: 8px 2px;
+    font-size: 200%;
+  }
+  td {
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    color: rgb(47, 47, 192);
+    padding: 12px 2px;
+    font-size: 100%;
+  }
